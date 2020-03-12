@@ -1,8 +1,8 @@
 package hub
 
 import (
-	"github.com/brobird/clash/hub/executor"
-	"github.com/brobird/clash/hub/route"
+	"github.com/bjzhou/clash/hub/executor"
+	"github.com/bjzhou/clash/hub/route"
 )
 
 // Parse call at the beginning of clash

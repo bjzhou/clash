@@ -3,7 +3,7 @@ package rules
 import (
 	"strconv"
 
-	C "github.com/brobird/clash/constant"
+	C "github.com/bjzhou/clash/constant"
 )
 
 type Port struct {

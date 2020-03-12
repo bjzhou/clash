@@ -36,7 +36,7 @@ $ go get -u -v github.com/whojave/clash
 
 Pre-built binaries are available here: [release](https://github.com/whojave/clash/releases)
 
-Pre-built TUN mode binaries are available here: [TUN release](https://github.com/Dreamacro/clash/releases/tag/TUN)
+Pre-built TUN mode binaries are available here: [TUN release](https://github.com/bjzhou/clash/releases/tag/TUN)
 
 Check Clash version with:
 
@@ -304,7 +304,7 @@ Rule:
 </details>
 
 ## Advanced
-[Provider](https://github.com/Dreamacro/clash/wiki/Provider)
+[Provider](https://github.com/bjzhou/clash/wiki/Provider)
 
 ## Documentations
 https://clash.gitbook.io/
@@ -317,7 +317,7 @@ https://clash.gitbook.io/
 
 ## License
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDreamacro%2Fclash.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDreamacro%2Fclash?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbjzhou%2Fclash.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbjzhou%2Fclash?ref=badge_large)
 
 ## TODO
 

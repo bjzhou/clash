@@ -3,8 +3,8 @@ package socks
 import (
 	"net"
 
-	"github.com/brobird/clash/common/pool"
-	"github.com/brobird/clash/component/socks5"
+	"github.com/bjzhou/clash/common/pool"
+	"github.com/bjzhou/clash/component/socks5"
 )
 
 type fakeConn struct {

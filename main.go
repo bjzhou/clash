@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/brobird/clash/config"
-	C "github.com/brobird/clash/constant"
-	"github.com/brobird/clash/hub"
-	"github.com/brobird/clash/log"
+	"github.com/bjzhou/clash/config"
+	C "github.com/bjzhou/clash/constant"
+	"github.com/bjzhou/clash/hub"
+	"github.com/bjzhou/clash/log"
 )
 
 var (
@@ -67,6 +67,8 @@ func main() {
 	if err := hub.Parse(); err != nil {
 		log.Fatalln("Parse config error: %s", err.Error())
 	}
+
+	converter.Main()
 
 	sigCh := make(chan os.Signal, 1)
 	signal.Notify(sigCh, syscall.SIGINT, syscall.SIGTERM)

@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"os"
 
-	C "github.com/brobird/clash/constant"
-	"github.com/brobird/clash/log"
+	C "github.com/bjzhou/clash/constant"
+	"github.com/bjzhou/clash/log"
 )
 
 func downloadMMDB(path string) (err error) {
-	resp, err := http.Get("https://github.com/Dreamacro/maxmind-geoip/releases/latest/download/Country.mmdb")
+	resp, err := http.Get("https://github.com/bjzhou/maxmind-geoip/releases/latest/download/Country.mmdb")
 	if err != nil {
 		return
 	}

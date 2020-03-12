@@ -8,7 +8,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/brobird/clash/component/auth"
+	"github.com/bjzhou/clash/component/auth"
 )
 
 // Error represents a SOCKS error

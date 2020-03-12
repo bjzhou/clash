@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	C "github.com/brobird/clash/constant"
+	C "github.com/bjzhou/clash/constant"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/brobird/clash/common/cache"
-	"github.com/brobird/clash/log"
+	"github.com/bjzhou/clash/common/cache"
+	"github.com/bjzhou/clash/log"
 
 	D "github.com/miekg/dns"
 	yaml "gopkg.in/yaml.v2"

@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/brobird/clash/adapters/outbound"
-	"github.com/brobird/clash/adapters/provider"
-	"github.com/brobird/clash/common/singledo"
-	C "github.com/brobird/clash/constant"
+	"github.com/bjzhou/clash/adapters/outbound"
+	"github.com/bjzhou/clash/adapters/provider"
+	"github.com/bjzhou/clash/common/singledo"
+	C "github.com/bjzhou/clash/constant"
 )
 
 type Fallback struct {

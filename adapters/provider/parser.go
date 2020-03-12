@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/brobird/clash/common/structure"
-	C "github.com/brobird/clash/constant"
+	"github.com/bjzhou/clash/common/structure"
+	C "github.com/bjzhou/clash/constant"
 )
 
 var (

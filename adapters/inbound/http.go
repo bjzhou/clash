@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	C "github.com/brobird/clash/constant"
+	C "github.com/bjzhou/clash/constant"
 )
 
 // HTTPAdapter is a adapter for HTTP connection

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	adapters "github.com/brobird/clash/adapters/inbound"
-	C "github.com/brobird/clash/constant"
+	adapters "github.com/bjzhou/clash/adapters/inbound"
+	C "github.com/bjzhou/clash/constant"
 
-	"github.com/brobird/clash/common/pool"
+	"github.com/bjzhou/clash/common/pool"
 )
 
 func handleHTTP(request *adapters.HTTPAdapter, outbound net.Conn) {

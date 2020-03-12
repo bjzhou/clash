@@ -1,7 +1,7 @@
 FROM golang:alpine as builder
 
 RUN apk add --no-cache make git && \
-    wget -O /Country.mmdb https://github.com/Dreamacro/maxmind-geoip/releases/latest/download/Country.mmdb && \
+    wget -O /Country.mmdb https://github.com/bjzhou/maxmind-geoip/releases/latest/download/Country.mmdb && \
     wget -O /qemu-arm-static https://github.com/multiarch/qemu-user-static/releases/latest/download/qemu-arm-static && \
     chmod +x /qemu-arm-static
 

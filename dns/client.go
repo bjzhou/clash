@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/brobird/clash/component/dialer"
+	"github.com/bjzhou/clash/component/dialer"
 
 	D "github.com/miekg/dns"
 )
